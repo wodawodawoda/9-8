@@ -13,54 +13,137 @@
     <title>9-7</title>
   </head>
   <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar fixed-top navbar-expand-md navbar-light">
+      <img src="images/icons/menu-icon.png" alt="menu-icon" class="navbar-brand secondary">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <div class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
+      <div class="collapse navbar-collapse col-6 col-md-12 justify-content-center" id="navbarSupportedContent">
+        <div class="navbar-nav">
+          <a href="#" class="navitem">home</a>
+          <a href="#photoapp" class="navitem">photoapp</a>
+          <img src="images/icons/menu-icon.png" alt="menu-icon" class="navbar-brand primary">
+          <a href="#design" class="navitem">design</a>
+          <a href="#download" class="navitem">download</a>
         </div>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
       </div>
     </nav>
-    <div class="hero d-flex align-items-center">
+    <section class="hero d-flex align-items-center">
       <div class="container">
         <div class="row">
           <div class="col d-flex flex-column align-items-center hero-content">
-            <h1 class="display-4">your life , a photo</h1>
+            <h1 class="display-4">your life, a photo</h1>
             <p class="lead">print your life in a simple photo</p>
             <button class="btn btn-primary">get started</button>
           </div>
         </div>
       </div>
-    </div>
+    </section>
+    <section id="photoapp" class="d-flex section-1">
+      <div class="container">
+        <div class="row relative">
+          <img src="images/handphone.png" alt="handphone" class="handphone-photo">
+          <article class="col-12 col-md-5">
+            <h2>rappresent your life with a simple photo</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium reiciendis itaque, reprehenderit, tempora quisquam culpa dicta laudantium enim labore facere eligendi sint impedit. Harum deserunt totam incidunt eius quod amet officiis id laboriosam tenetur ea?</p>
+            <button class=" btn btn-primary">get started</button>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section id="design" class="d-flex section-2">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-12 col-md-5 d-flex justify-content-center phone-1-wrapper">
+          </div>
+          <article class="col-12 col-md-5 article">
+            <h2>design</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium reiciendis itaque, reprehenderit, tempora quisquam culpa dicta laudantium enim labore facere eligendi sint impedit. Harum deserunt totam.</p>
+            <button class="btn btn-primary">learn more</button>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="d-flex section-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-3 article">
+            <img src="images/icons/photo-icon-green.png" alt="photo-icon-green">
+            <h2>our community</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+          <div class="col-12 col-md">
+            <img src="images/photo-1.jpg" alt="photo-1">
+          </div>
+          <div class="col-12 col-md">
+            <img src="images/photo-2.jpg" alt="photo-2">
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="d-flex align-items-center section-4">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col col-md-10 d-flex flex-column">
+            <h1>subscribe to us community</h1>
+            <div class="input-group item-input justify-content-center">
+              <input type="email" class="form-control" placeholder="YOUR EMAIL">
+              <div class="input-group-prepend">
+                <div class="input-group-text" id="btnGroupAddon">
+                  <span class="fas fa-check"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="download" class="d-flex align-items-center section-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col col-md-10 content">
+            <h2>download it</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nesciunt deleniti, consequuntur. Cupiditate earum dolorem deleniti aliquid blanditiis explicabo odio obcaecati at unde quasi aliquam culpa, aut dolores nemo inventore illum dicta exercitationem tenetur et!</p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="input-group item-input col-md-6">
+            <button type="button" class="form-control btn-primary">apple store</button>
+            <div class="input-group-prepend">
+              <div class="input-group-text" id="btnGroupAddon">
+                <span class="fab fa-apple"></span>
+              </div>
+            </div>
+          </div>
+          <div class="input-group item-input col-md-6">
+            <button type="button" class="form-control btn-primary">play store</button>
+            <div class="input-group-prepend">
+              <div class="input-group-text" id="btnGroupAddon">
+                <span class="fab fa-android"></span>
+              </div>
+            </div>
+          </div> 
+         </div>
+      </div>
+    </section>
+    <footer class="d-flex footer">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-md-6 footer-text">
+            <p>credits<span>|</span>privacy<span>|</span>our teams</p>
+            <p>Copyright by phototime - all right reserved</p>
+          </div>
+          <div class="col-md-6 footer-icon">
+            <img src="../images/icons/photo-icon-green.png" alt="footer-icon">
+          </div>
+        </div>
+      </div>
+    </footer>
 
 
     <!-- Optional JavaScript -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <script src="2-JS/script.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

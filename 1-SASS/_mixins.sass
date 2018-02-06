@@ -1,9 +1,24 @@
 $menu-font: Gothamrounded, 700, 16px, $white, 2.4px, uppercase
 
 =font($fontfamily: Gothamrounded, $weight: 700, $size: 12px, $color: $white, $spacing: 2.4px, $transform: uppercase)
-	fontfamily: $fontfamily
+	font-family: $fontfamily
 	font-weight: $weight
 	font-size: $size
 	color: $color
 	letter-spacing: $spacing
 	text-transform: $transform
+
+
+=media($point)
+	@if $point == sm
+		@media (min-width: 576px)
+			@content
+	@else if $point == md
+		@media (min-width: 768px)
+			@content
+	@else if $point == lg
+		@media (min-width: 992px)
+			@content
+	@else if $point == xl
+		@media (min-width: 1200px)
+			@content
