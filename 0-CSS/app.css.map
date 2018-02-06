@@ -1,0 +1,17 @@
+{
+	"version": 3,
+	"file": "app.css",
+	"sources": [
+		"../1-SASS/app.sass",
+		"../1-SASS/_variables.sass",
+		"../1-SASS/_mixins.sass",
+		"../1-SASS/0-plugins/_plugins-dir.sass",
+		"../1-SASS/1-base/_base-dir.sass",
+		"../1-SASS/1-base/_base.sass",
+		"../1-SASS/2-layouts/_layouts-dir.sass",
+		"../1-SASS/2-layouts/_layouts.sass",
+		"../1-SASS/3-modules/_modules-dir.sass"
+	],
+	"names": [],
+	"mappings": "AOAA,AAAA,KAAK,CAAC;EACL,UAAU,EAAE,8BAA8B,CAAC,SAAS,CAAC,MAAM;EAC3D,eAAe,EAAE,KAAK;EACtB,MAAM,EAAE,KAAK;CAGY;;AAN1B,AAIC,KAJI,CAIJ,aAAa,CAAC;ELDd,UAAU,EADc,aAAa;EAErC,WAAW,EAFqC,GAAG;EAGnD,SAAS,EAHmD,IAAI;EAIhE,KAAK,EDJG,IAAI;ECKZ,cAAc,EAL8E,KAAK;EAMjG,cAAc,EANiG,SAAS;EKIvH,UAAU,EAAE,MAAM;CAAI"
+}
